@@ -7,7 +7,11 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/cortes.html"
+      "destination": "/api/index.php"
+    },
+    {
+      "source": "/index.php",
+      "destination": "/api/index.php"
     }
   ]
 }
